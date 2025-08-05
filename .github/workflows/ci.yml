@@ -1,7 +1,7 @@
 name: CI Pipeline with Model Testing and Poison-Level Reporting
 
 on:
-  pull_request:
+  push:
     branches: [ main ]
 
 jobs:
@@ -10,7 +10,6 @@ jobs:
 
     permissions:
       contents: read
-      pull-requests: write
 
     steps:
       - name: Checkout code
