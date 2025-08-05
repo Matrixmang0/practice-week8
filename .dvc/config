@@ -1,0 +1,4 @@
+[core]
+    remote = remote
+['remote "remote"']
+    url = gs://mlops-course-neural-mantra-461520-m0/week8

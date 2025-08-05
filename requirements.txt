@@ -1,5 +1,5 @@
 ipykernel
-dvc
+dvc[gs]
 pandas
 scikit-learn
 mlflow
